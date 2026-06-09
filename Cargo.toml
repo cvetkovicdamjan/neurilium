@@ -1,0 +1,13 @@
+[package]
+name = "neurilium"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pollster = "0.4"
+wgpu = "29.0.0"
+winit = "0.30" 
+glam = "0.32.1" 
+bytemuck = "1.25.0"
+serde = { version = "1.0", features = ["derive"] }
+csv = "1.3"
