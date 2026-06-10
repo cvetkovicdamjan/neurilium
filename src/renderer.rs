@@ -379,8 +379,9 @@ impl Renderer {
             wgpu::CurrentSurfaceTexture::Success(surface_texture) => surface_texture,
 
             wgpu::CurrentSurfaceTexture::Suboptimal(surface_texture) => {
+                drop(surface_texture);
                 self.surface.configure(&self.device, &self.config);
-                surface_texture
+                return;
             }
 
             wgpu::CurrentSurfaceTexture::Timeout
