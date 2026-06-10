@@ -5,10 +5,11 @@ Simple and fast code to simulate small brains.
 ## quick start
 How to simulate fruit fly brain using this tool:  
 Go to [CodexFlyWireDownload](https://codex.flywire.ai/api/download?dataset=fafb)  
+You would probably need to signin to download the data
 Download `Neurotransmitter Type Predictions`, `Connections (Filtered)` and `Marked Neuron Coordinates`  
 Extract those 3 csv files and they should be named `neurons.csv`, `connections_princeton.csv` and `coordiantes.csv`  
 Clone this repo and inside made a `data/` folder   
-Place 3 csv files csvs into `data/` folder  
+Place 3 csv files into `data/` folder  
 Then just run `cargo run`  
 
 ## controls
