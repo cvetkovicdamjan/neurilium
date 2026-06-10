@@ -1,6 +1,6 @@
 ## neurilium
 Simple and fast code to simulate small brains.
-![](assets/simulation.png)
+![](assets/simulation.gif)
 
 ## quick start
 How to simulate fruit fly brain using this tool:  
